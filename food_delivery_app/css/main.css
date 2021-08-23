@@ -1,16 +1,20 @@
-body{
-    /* background-color: #999; */
-    /* background-color: brown; */
-    background-image: url('../images/bg-image-1.jpg');
-    background-size: cover;
-}
+body{background-image: url('../images/bg-image-1.jpg');background-size: cover;}
+h1{color: rgb(255, 255, 255);font-weight: bold;background-color: rgb(85, 88, 82);}
+img{height: 300px;}
+
+.nav-item a:hover{border-bottom: 2px solid #aca2a2;}
+
+
+
+
+
 .container{display: flex;
     justify-content:center;
     height: 100vh;
     align-items: center;}
 #custom-image{
     height: 100px;
-    width: 100px;   
+    width: 100px;
     border-radius: 50px;
 }
 #upload-image{
@@ -30,17 +34,3 @@ h1{
 .btn{
     width: 100%;
 }
-
-.carousel-item img{height: 600px;width: 100%;}
-
-
-
-
-
-
-
-
-
-
-
-
